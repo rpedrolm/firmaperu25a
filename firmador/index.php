@@ -19,13 +19,13 @@
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="../firmaPe/script/firmaperu-loc.js"></script>  <!-- versión modificada  -->
+    <script type="text/javascript" src="../firmaPe/script/firmaperu-loc.js"></script>  <!-- versiÃ³n modificada  -->
     <div id="addComponent"> <small>FirmaPe Component</small> </div>
 
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 <body>
 <div class="container mt-5">
-    <h1 class="text-center"> WebApp de integracion con FirmaPerú </h1>
+    <h1 class="text-center"> WebApp de integracion con FirmaPerÃº </h1>
     <hr>
 
     <div class="row pt-3">
@@ -55,7 +55,7 @@
 
                 <div class="mb-3">
                     <label for="cargo" class="form-label"> <b>Texto de Cargo en Firma:</b> </label>
-                    <input type="text" class="form-control" id="cargo" name="role" value="Director(e) Adex Perú">
+                    <input type="text" class="form-control" id="cargo" name="role" value="Director(e) Adex PerÃº">
                 </div>
 
                 <div class="mb-3">
@@ -64,7 +64,7 @@
                         <option value="1">Horizontal</option>
                         <option value="2">Vertical</option>
                         <option value="3">Solo estampilla</option>
-                        <option value="4">Solo descripción</option>
+                        <option value="4">Solo descripciÃ³n</option>
                     </select>
                 </div>
 
@@ -139,10 +139,7 @@
 
     <script>
 
-        // "https://cursos.unap.org.pe/bind/firmador/files/titulo[R].pdf";// pdfViewer.src;
-        //
         arch.value = pdfViewer.src;
-
 
         pdfInput.addEventListener('change', function(event){
             const file = event.target.files[0];
